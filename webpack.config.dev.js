@@ -12,6 +12,7 @@ module.exports = {
       assetModuleFilename: "assets/[hash][ext][query]",
    },
    mode: "development",
+   watch: true,
    resolve: {
       extensions: [".js"],
       alias: {
